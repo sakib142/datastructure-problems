@@ -1,0 +1,20 @@
+Q1) If hashcode() method of an object always returns 0 then what will be the impact on the 
+functionality of software ? 
+
+Hashcode is used to fairly distribute elements inside a map into individual buckets. 
+If the hashcode returned is zero for each element then the distribution will no more be fair 
+and all the elements will end up into a single bucket. Each bucket in a HashMap contains list of HashEntry objects, 
+so in a way HashMap will act as a map with single bucket holding all of its elements in a list. 
+That will drastically reduce HashMap's performance to that of a LinkedList for get and put operations. 
+So time complexity of get and put method will become : 
+Big O(n) instead of Big O(1) Although, functionally it will still behave correctly.
+
+Q2) If we don't override hashcode() while using a object in hashing collection, what will be the impact ? 
+
+Then the Object's default hashcode() method will be used to calculate the hashcode, 
+which in turn will return the memory address of the object in hexadecimal format. 
+So in a way the hashmap will behave like a identity hashmap which will consider two elements equal if and only 
+if two objects are same as per their memory address (and not logically). 
+For example two String Objects with same contents might be treated different by this hashmap if they are different on heap.
+
+Q3)  
