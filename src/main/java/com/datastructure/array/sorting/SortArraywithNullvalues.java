@@ -1,4 +1,4 @@
-package com.datastructure.array.sorting.nullvaluesarray;
+package com.datastructure.array.sorting;
 
 import java.util.Arrays;
 import java.util.Comparator;
