@@ -1,0 +1,21 @@
+We will discuss two approaches to solve this problem -
+Approach 1 : Find the Top K Occurrence count using a hashmap and min-heap (PriorityQueue in Java)
+
+Pseudocode for the algorithm
+1. Finding the Word Occurrence Count - Stream the words into a HashMap (put operation is Big O(1))
+keeping the value as word occurrence count. On every word occurrence, update the word count.
+
+2. Track Top K occurring Words Using Binary Min Heap (PriorityQueue with Natural ordering) - This can be
+achieved by maintaining a binary min heap of max size K, and then for each word count in hashmap -
+
+i. Check if the heap size if less than K - then add the new word count to min heap. Otherwise
+
+ii. Check if the peek element (that is minimum value in binary min heap) is less than the new word count,
+and if it is, then remove the existing number and insert the new word count into min heap.
+
+iii. When we are done traversing the entire word-counts then we will have heap containing the top K
+frequently occurring words.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+

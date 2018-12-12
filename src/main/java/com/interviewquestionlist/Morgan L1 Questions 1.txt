@@ -1,0 +1,17 @@
+1) Design a class Diagram for the below scenario:
+	An Employee can will have a Manager and all the Employee reporting to him - Require Class diagram and all the collections which you will use
+	You can't use a database or any external storage things.
+	Every thing should be done in in-memory
+	
+	How you will search the Employee details using EmpId - Write the method and all the Collection which you will use
+	How you will search the Employee details using Empname -  Write the method and all the Collection which you will use
+	
+	
+2) Time Complexity of Linkedlist and ArrayList in various scenarios
+	Insertion at beginning
+	Insertion at middle
+	Insertion at last
+	
+	The linkedlist and arraylist are prepoulated
+	 
+	 

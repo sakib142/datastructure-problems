@@ -1,0 +1,25 @@
+1) Synchronization uses in method level code (Questions based on Object level and Class level locking)
+
+2) Programme to print  ODD and EVEN values using two threads
+
+3) Scenario when to use Countdownlatch and when to use Cyclic Barrier
+
+4) Questions on Singleton Class (How to use Singleton class in Multi-threaded environment )
+
+5) What is Enum (When to use it) - How its different from "PUBLIC STATIC FINAL"
+
+6) Abstract Design Pattern
+
+7) Immutable class related questions (What if we make the constructor private in immutable class, How to create it, why final keywords, What if we are using immutable and mutable class in IMMUTABLE class)
+
+9) What is abstraction (Explain with a scenario)
+
+10) What is Polymorphism
+
+11) Project based Question (What is Asynchronous and Synchronous communication how you have implemented it)
+
+12) Difference between Singleton class and Immutable class
+
+13) HashMap Questions (What if we don't override the equals and hashcode method, when we override the equals method correctly and from hashcode returning 1, when we  override the hashcode correctly and from equals method returning true)
+
+14) Diff between Rest and Soap when to use what

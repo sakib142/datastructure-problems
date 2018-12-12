@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/reentrant-lock-java/
+
+http://javarevisited.blogspot.in/2013/03/reentrantlock-example-in-java-synchronized-difference-vs-lock.html
+
+https://dzone.com/articles/what-are-reentrant-locks

@@ -1,0 +1,5 @@
+Object Level Lock:
+http://thespiritofjavaandweb.blogspot.com/2017/05/14-synchronization-object-level-lock.html
+
+Class Level Lock
+http://thespiritofjavaandweb.blogspot.com/2017/05/synchronization-class-level-lock.html

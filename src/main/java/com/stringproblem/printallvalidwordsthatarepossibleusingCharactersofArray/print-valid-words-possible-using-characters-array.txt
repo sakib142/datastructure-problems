@@ -1,0 +1,20 @@
+	Print all valid words that are possible using Characters of Array
+<------------------------------------------------------------------------->
+Given a dictionary and a character array, print all valid words that are possible using characters from the array.
+
+Examples:
+
+Input : Dict - {"go","bat","me","eat","goal", 
+                                "boy", "run"} 
+        arr[] = {'e','o','b', 'a','m','g', 'l'} 
+Output : go, me, goal. 
+Asked In : Microsoft Interview
+
+Recommended: Please try your approach on {IDE} first, before moving on to the solution.
+The idea is to use Trie data structure to store dictionary, then search words in Trie using characters of given array.
+
+Create an empty Trie and insert all words of given dictionary into the Trie.
+After that, we have pick only those characters in ‘Arr[]’ which are a child of the root of Trie.
+To quickly find whether a character is present in array or not, we create a hash of character arrays.
+
+https://www.geeksforgeeks.org/print-valid-words-possible-using-characters-array/

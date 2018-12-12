@@ -1,0 +1,10 @@
+1) There are millions of Account Number in a file, Example
+94848586860019
+94848586869999
+94877667470019
+87768586860019
+58688586860019
+94848586860019
+
+
+2) Sort Stack using an auxillary Stack

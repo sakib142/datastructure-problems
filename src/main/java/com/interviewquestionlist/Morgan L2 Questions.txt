@@ -1,0 +1,37 @@
+1) Scenario based question on Immutable classes (How will achieve the immutability of a mutable class without the creation on new Object ? Why we require new Object creation inside the constructor, Why not in getter method?)
+
+
+2) Composition and Inheritance (Which one will you use and in which scenario ? Which is more tightly coupled ? Gave few scenarios and asked what to use and why ?
+
+	If I have to create a service which should have the capabilty to expire the hashmap keys what you will use -
+	Client should have access to the put and get methods? What will you use here and why
+
+	Sol - https://www.journaldev.com/12086/composition-vs-inheritance
+
+
+3) What is Atomic ? How it works internally ? Why to use it ?
+
+
+4) Why not volatile? when to use volatile ? Asked this question with few scenarios
+
+
+5) UnBoxing and AutoBoxing - What is this ? why to use ?
+	int i=5;
+	Integer i1 =i;  -----> Will this work ?
+
+	Integer i= 1
+	int i1 =i;  -----> Will this work ?
+	
+	How it works internally ? Who handles this ? Is it Compiler ?
+
+	Sol : https://www.geeksforgeeks.org/autoboxing-unboxing-java/
+
+
+6) Question on problem solving - (How to find the  based Trade day and lots of follow up Question on Stock prices)
+
+7) How you will add null as key in TreeMap
+
+
+
+
+
